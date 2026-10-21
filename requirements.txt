@@ -1,0 +1,8 @@
+# requirements.txt
+pandas
+pyarrow
+chromadb
+sentence-transformers
+groq
+streamlit
+python-dotenv

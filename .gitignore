@@ -1,0 +1,30 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Generated vector index (rebuilt with: python src/build_index.py)
+data/chroma_db/
+
+# Raw datasets (cleaned parquet files ARE committed)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
